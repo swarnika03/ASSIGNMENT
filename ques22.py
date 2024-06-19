@@ -1,0 +1,5 @@
+list1 = input("Enter a list of numbers with  spaces: ").split()
+list1.sort(reverse=True)
+print("The maximum value is",list1[0])
+list1.sort(reverse=False)
+print("The minimum value is",list1[0])
